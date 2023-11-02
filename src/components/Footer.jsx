@@ -8,13 +8,10 @@ const FooterContainer = styled.div`
 `;
 
 const FooterBackground = styled.div`
-  width: 100%;
-  height: 100%;
+  
   background: #202537;
-  opacity: 0.50;
-  position: absolute;
-  top: 0;
-  left: 0;
+  
+  
 `;
 
 

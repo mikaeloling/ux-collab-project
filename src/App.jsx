@@ -8,22 +8,18 @@ import Footer from './components/Footer';
 export const App = () => {
   
   const AppContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  flex-direction: columns;
-  align-items: center;
-  justify-content: center;
-  background-imgage: url("public/background.jpg")
+    display: grid;  
+  
 `;
 
   return (
     <>
     <AppContainer>
     
-      <Header />
+      <Header /> 
       <Hero />
       <Courses />
-      <Newsletter />
+       <Newsletter />
       <Footer />
 
    </AppContainer>

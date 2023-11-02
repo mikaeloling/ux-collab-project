@@ -8,6 +8,7 @@ const NewsletterContainer = styled.div`
   background-size: cover;
   display:flex;
   align-items: center;
+  background-color: transparent;
 `;
 
 const SignUpText = styled.div`
