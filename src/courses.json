@@ -3,39 +3,39 @@
       "id": 1,
       "title": "Ashtanga Vinyasa",
       "description": "Ashtanga Vinyasa Yoga is perfect for the dynamic rider who strives to build strength and increase flexibility. This class teaches an energetic practice, synchronising breath with movements.",
-      "imageUrl": "https://via.placeholder.com/420x222"
+      "imageUrl": "/ashtanga yoga image.jpeg"
     },
     {
       "id": 2,
       "title": "Horseback Yoga",
       "description": "Yoga on Horseback is an excellent class for the more experienced rider, combining seat training with traditional yoga practices. This class will deepen the bond between you and the horse, improving both trust and communication between horse and rider. ",
-      "imageUrl": "https://via.placeholder.com/420x222"
+      "imageUrl": "/yoga on horseback.webp"
     },
     {
       "id": 3,
       "title": "Hatha Yoga",
       "description": "Hatha Yoga is a holistic practice that seeks to improve flexibility, strength, and inner peace through the harmonization of breath and movement.",
-      "imageUrl": "https://via.placeholder.com/420x222"
+      "imageUrl": "/hatha yoga image.jpg"
     },
 
     {
     "id": 4,
     "title": "Hot Yoga",
     "description": "Hot Yoga is a style of yoga performed in a heated room, typically around 95-105°F (35-40°C). This intense heat is intended to enhance flexibility and detoxification while challenging practitioners through a series of yoga postures.",
-    "imageUrl": "https://via.placeholder.com/420x222"
+    "imageUrl": "/hot yoga.jpeg"
         },
 
     {
     "id": 5,
     "title": "Seat Training",
     "description": "Seat Training with Maria Lind, this fall seat trainer Maria Lind is hosting a new course here at Saddle Up Yoga Studio. Take this opportunity to work on you balance and sharpen your riding skills.",
-    "imageUrl": "https://via.placeholder.com/420x222"
+    "imageUrl": "public/sitsträning longering.jpeg"
     },
 
     {
     "id": 6,
     "title": "Mindfullness",
     "description": "Mindfulness. In this class we are reducing stress, improving mental clarity, and fostering a greater sense of self-awareness and emotional well-being.",
-    "imageUrl": "https://via.placeholder.com/420x222"
+    "imageUrl": "/mindfulness image.jpeg"
     }
   ]
