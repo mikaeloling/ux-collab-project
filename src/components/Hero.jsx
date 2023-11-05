@@ -20,7 +20,7 @@ const HeroImage = styled.div`
   height: 652px;
   align-items: center;
   gap: 0px;
-  background-image: url('public/hero image.JPG');
+  background-image: url('/hero image.JPG');
   background-size: cover;
 `;
 
