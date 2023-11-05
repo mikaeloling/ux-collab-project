@@ -3,16 +3,31 @@ import styled from 'styled-components';
 import InteractiveButtons from './InteractiveButtons';
 
 const HeaderContainer = styled.div`
-  background-color: #ffffff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+background-color: #fff6e9;
+height: 130px;
+width: 100%;
+  
 `;
 
 const Frame = styled.div`
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 16px 24px;
-`;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  left: 67px;
+  right: 67px;
+  bottom: 11px;
+  top: 11px;
+  position: relative;
+  
+  width: 1306px;
+  `;
+
+const Logo = styled.div`
+  width: 50px;
+  height: 50px;
+  `;
+
 
 const LogoPageTitleWrapper = styled.div`
   display: flex;
@@ -51,6 +66,7 @@ const CartCheckoutMenu = styled.div`
 
 const TextWrapper = styled.div`
   font-size: 16px;
+  
   font-weight: bold;
   color: #081957;
   text-transform: uppercase;
@@ -67,13 +83,17 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Frame>
-        <img className="image" alt="Image" src="public/hoselogo on white.png" />
-        <LogoPageTitleWrapper>
+        <div>
+        <Logo>
+          <img src="public/hoselogo on white.png"  height = "50px" width = "50px" />
+        </Logo>
+        {/* <LogoPageTitleWrapper> */}
           <SaddleUp>saddle up</SaddleUp>
           <LogoPageTitle>
             <YogaStudio>YOGA STUDIO</YogaStudio>
           </LogoPageTitle>
-        </LogoPageTitleWrapper>
+          </div>
+        {/* </LogoPageTitleWrapper> */}
         <div>
           <CartCheckoutMenu>
             <TextWrapper>Cart (0)</TextWrapper>

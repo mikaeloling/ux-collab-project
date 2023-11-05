@@ -1,20 +1,25 @@
 import styled from 'styled-components';
 import CourseCard from './CourseCard';
 import coursesData from "../courses.json";
+import i18n from '../i18n';
+// import { useState } from 'react';
+// import { useTranslation } from 'react-i18next';
 
 const CoursesContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 32px;
   margin-top: 32px;
+  padding: 65px;
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
   }
+
 `;
 
 const UpcommingCourses = styled.div`
-  flex: 1 1 0;
+  
   text-align: center;
   color: #081957;
   font-size: 28px;
@@ -35,17 +40,20 @@ const Frame28 = styled.div`
 `;
 
 const Courses = () => {
-  return (
+  const lang = i18n.language;
+
+
+return (
     <> 
     <Frame28>
-      <UpcommingCourses>Upcomming Courses</UpcommingCourses>
+    <UpcommingCourses>{i18n.t('upcomingCourses', { lng: lang })}</UpcommingCourses>
     </Frame28>
     <CoursesContainer>
-      {coursesData.map((course) => (
+    {coursesData.map((course) => (
         <CourseCard
           key={course.id}
-          title={course.title}
-          description={course.description}
+          title={course.title[lang]}
+          description={course.description[lang]}
           imageUrl={course.imageUrl}
         />
       ))}
