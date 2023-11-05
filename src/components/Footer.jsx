@@ -16,44 +16,42 @@ const FooterContent = styled.div`
 `;
 
 const LogoSection = styled.div`
-  height: 165.5px;
+  height: auto;
   display: grid;
   grid-template-columns: 152px 1fr 1fr;
   justify-content: flex-start;
   align-items: center;
   gap: 11px;
 `;
-
-const LogoContainer = styled.div`
-  
-`;
-
-
 const LogoHorseHead = styled.img`
   width: 122px;
-  margin: 20px;
+  margin: 0px;
 `;
-
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 11px;
 `;
 
 const LogoText1 = styled.div`
-  padding: 12.46px;
-
-  gap: 12.46px;
+  
+  font-family: "Avenir Next-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFF6E9;
+  text-transform: capitalize;
+  word-wrap: break-word;
 `;
 
 const LogoText = styled.div`
-  padding: 12.46px;
- 
-  gap: 12.46px;
-`;
-
+  font-family: "Nunito Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 400;font-family: "Avenir Next-Regular", Helvetica;
+  color: #FFF6E9; 
+  text-transform: capitalize; 
+  word-wrap: break-word;  
+`;  
 
 
 const SocialSection = styled.div`
@@ -137,15 +135,15 @@ const Footer = () => {
     <div>
     <FooterContainer>
       <FooterContent>
+
       <LogoSection>
-         <LogoContainer>
-            <LogoHorseHead src="public/horselogo_dark.png" alt="Horse Logo" />
-          </LogoContainer>
+        <LogoHorseHead src="public/horselogo_dark.png" alt="Horse Logo" />
         <TextContainer>
           <LogoText1>SADDLE UP</LogoText1>
           <LogoText>YOGA STUDIO</LogoText>
         </TextContainer>
       </LogoSection>
+
         <SocialSection>
             <FollowUs>FOLLOW US</FollowUs>
             <SocialMediaIcons>

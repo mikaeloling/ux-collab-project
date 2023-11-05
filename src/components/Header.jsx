@@ -3,60 +3,58 @@ import styled from 'styled-components';
 import InteractiveButtons from './InteractiveButtons';
 
 const HeaderContainer = styled.div`
-background-color: #fff6e9;
 height: 130px;
 width: 100%;
+
   
 `;
 
 const Frame = styled.div`
-  
-align-items: center;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  
-  bottom: 11px;
-  top: 11px;
-  position: relative;
-  
   width: 100%;
-  `;
-
-const Logo = styled.div`
-  width: 50px;
-  height: 50px;
-  `;
-
-
-const LogoPageTitleWrapper = styled.div`
-  display: flex;
+  height: 100%;
+  padding: 0px;
+  justify-content: center;
   align-items: center;
+  gap: 0px;
 `;
 
-const LogoPageTitle = styled.div`
+const LogoSection = styled.div`
+  height: auto;
+  display: grid;
+  grid-template-columns: 152px 1fr 1fr;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 11px;
+`;
+const LogoHorseHead = styled.img`
+  width: 122px;
+  margin: 0px;
+`;
+const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 16px;
+  justify-content: center;
+  align-items: flex-start;
 `;
 
-const SaddleUp = styled.p`
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
-  color: #081957;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
+const LogoText1 = styled.div`
+  font-size: 20px;
+  font-family: 'Avenir Next'; 
+  font-weight: 400; 
+  color: #FFF6E9; 
+  text-transform: capitalize; 
+  word-wrap: break-word;  
+`;  
+
+const LogoText = styled.div`
+  font-size: 20px;
+  font-family: 'Avenir Next';
+  font-weight: 400;
+  color: #FFF6E9;
+  text-transform: capitalize;
+  word-wrap: break-word;
 `;
 
-const YogaStudio = styled.div`
-  font-size: 16px;
-  font-weight: bold;
-  color: #081957;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-`;
 
 const CartCheckoutMenu = styled.div`
   display: flex;
@@ -83,19 +81,16 @@ const MainMenu = styled.div`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Frame>
-        <div>
-        <Logo>
-          <img src="public/hoselogo on white.png"  height = "50px" width = "50px" />
-        </Logo>
-        {/* <LogoPageTitleWrapper> */}
-          <SaddleUp>saddle up</SaddleUp>
-          <LogoPageTitle>
-            <YogaStudio>YOGA STUDIO</YogaStudio>
-          </LogoPageTitle>
-          </div>
-        {/* </LogoPageTitleWrapper> */}
-        <div>
+      
+      <LogoSection>
+        <LogoHorseHead src="public/horselogo_dark.png" alt="Horse Logo" />
+        <TextContainer>
+          <LogoText1>SADDLE UP</LogoText1>
+          <LogoText>YOGA STUDIO</LogoText>
+        </TextContainer>
+      </LogoSection>
+      
+        
           <CartCheckoutMenu>
             <TextWrapper>Cart (0)</TextWrapper>
             <TextWrapper>Checkout</TextWrapper>
@@ -107,9 +102,9 @@ const Header = () => {
             <TextWrapper>SHOP</TextWrapper>
             <InteractiveButtons prop="search-field-button" search="image.png" />
           </MainMenu>
-          </div>
           
-          </Frame>
+        
+          
     </HeaderContainer>
   );
 };
