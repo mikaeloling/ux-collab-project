@@ -10,17 +10,17 @@ width: 100%;
 `;
 
 const Frame = styled.div`
-  align-items: center;
+  
+align-items: center;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  left: 67px;
-  right: 67px;
+  
   bottom: 11px;
   top: 11px;
   position: relative;
   
-  width: 1306px;
+  width: 100%;
   `;
 
 const Logo = styled.div`
@@ -60,7 +60,8 @@ const YogaStudio = styled.div`
 
 const CartCheckoutMenu = styled.div`
   display: flex;
-  align-items: center;
+
+  align-items: float-end;
   gap: 16px;
 `;
 
@@ -104,10 +105,11 @@ const Header = () => {
             <TextWrapper>OUR COURSES</TextWrapper>
             <TextWrapper>RESOURCES</TextWrapper>
             <TextWrapper>SHOP</TextWrapper>
+            <InteractiveButtons prop="search-field-button" search="image.png" />
           </MainMenu>
-        </div>
-        <InteractiveButtons prop="search-field-button" search="image.png" />
-      </Frame>
+          </div>
+          
+          </Frame>
     </HeaderContainer>
   );
 };
