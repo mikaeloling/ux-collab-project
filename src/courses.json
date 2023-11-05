@@ -9,7 +9,7 @@
           "en": "Ashtanga Vinyasa Yoga is perfect for the dynamic practitioner who aims to build strength and increase flexibility. This class teaches an energetic practice, synchronizing breath with movements.",
           "sv": "Ashtanga Vinyasa Yoga passar perfekt för den dynamiska utövaren som strävar efter att bygga styrka och öka flexibiliteten. Denna klass lär ut en energisk praxis som synkroniserar andning med rörelser."
       },
-      "imageUrl": "public/ashtanga yoga image.jpeg"
+      "imageUrl": "/ashtanga yoga image.jpeg"
   },
   {
       "id": 2,
@@ -21,7 +21,7 @@
           "en": "Yoga on Horseback is an excellent class for the more experienced rider, combining seat training with traditional yoga practices. This class will deepen the bond between you and the horse, improving both trust and communication between horse and rider.",
           "sv": "Yoga på hästryggen är en utmärkt klass för den mer erfarna ryttaren, där sätesutbildning kombineras med traditionella yogapraktiker. Den här klassen fördjupar bandet mellan dig och hästen, förbättrar både förtroendet och kommunikationen mellan häst och ryttare."
       },
-      "imageUrl": "public/yoga on horseback.webp"
+      "imageUrl": "/yoga on horseback.webp"
   },
   {
       "id": 3,
@@ -33,7 +33,7 @@
           "en": "Hatha Yoga is a holistic practice that seeks to improve flexibility, strength, and inner peace through the harmonization of breath and movement.",
           "sv": "Hatha Yoga är en holistisk praktik som syftar till att förbättra flexibilitet, styrka och inre frid genom harmonisering av andning och rörelse."
       },
-      "imageUrl": "public/hatha yoga image.jpg"
+      "imageUrl": "/hatha yoga image.jpg"
   },
   {
       "id": 4,
@@ -45,7 +45,7 @@
           "en": "Hot Yoga is a style of yoga performed in a heated room, typically around 95-105°F (35-40°C). This intense heat is intended to enhance flexibility and detoxification while challenging practitioners through a series of yoga postures.",
           "sv": "Hot Yoga är en yogastil som utförs i ett uppvärmt rum, vanligtvis runt 35-40°C. Denna intensiva värme syftar till att öka flexibiliteten och avgiftningen samtidigt som den utmanar utövarna genom en serie yogapositioner."
       },
-      "imageUrl": "public/hot yoga.jpeg"
+      "imageUrl": "/hot yoga.jpeg"
   },
   {
       "id": 5,
@@ -57,7 +57,7 @@
           "en": "Seat Training with Maria Lind. This fall, seat trainer Maria Lind is hosting a new course here at Saddle Up Yoga Studio. Take this opportunity to work on your balance and sharpen your riding skills.",
           "sv": "Sitsutbildning med Maria Lind. I höst håller sitsutbildaren Maria Lind en ny kurs här på Saddle Up Yoga Studio. Ta tillfället i akt att arbeta med din balans och förbättra dina ridkunskaper."
       },
-      "imageUrl": "public/sitsträning longering.jpeg"
+      "imageUrl": "/sitsträning longering.jpeg"
   },
   {
       "id": 6,
