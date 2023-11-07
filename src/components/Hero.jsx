@@ -19,64 +19,58 @@ const HeroImage = styled.div`
  
   height: 652px;
   align-items: center;
-  gap: 0px;
   background-image: url('/hero image.JPG');
   background-size: cover;
+  background-position: center center;
 `;
 
 const MissionContainer = styled.div`
-  margin-top: 350px;
-  display: flex;
+  margin-top: 361px;
+  display: grid;
   flex-direction: column;
   align-items: center;
-  gap: 0px;
-  background-color: grey;
   `;
 
 const Frame30 = styled.div`
   width: 100%;
-  height: 160px;
-  
+  height: 208px;
   display: grid;
-  grid-template-columns: 1fr;
-  flex: 1
-  0 1 0
-  align-items: center;
-  
+  background-color: #fff6e9;
+  justify-content: center;
 `;
 const OurMission = styled.div`
+  padding-top: 24px;
   text-align: center;
   color: #081957;
   font-size: 36px;
-  font-family: 'Avenir Next';
+  font-family: "Nunito Sans-Bold", Helvetica;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.80px;
   word-wrap: break-word;
-  background-color: #fff6e9;
+  
 `;
 const HeroText = styled.div`
-  padding-left: 167px;
-  padding-right: 167px;
+  
+  margin-top: 12px;
+  max-width: 544px;
   color: black;
   font-size: 16px;
-  font-family: 'Avenir Next';
+  font-family: "Nunito Sans-Bold", Helvetica;
   font-weight: 400;
   word-wrap: break-word;
-  background-color: #fff6e9;
 
 `;
 
 const ButtonDarkGrey = styled.div`
   align-items: center;
   border-radius: 8px;
-  gap: 10px;
-  background-color: #081957;
-  margin-top: 50px;
+  background-color: #fff6e9;
+  margin-top: 11px;
+
   width: 218px;
   margin-left: 50%; 
   transform: translateX(-50%);
-  gap: 10px;
   padding: 16px 24px;
   position: relative;
   text-align: center;

@@ -7,6 +7,7 @@ height: 130px;
 background-color: #fff6e9;
 display: flex;  
 justify-content: space-between;
+padding: 11px 67px;
 `;
 
 const LogoSection = styled.div`
@@ -20,6 +21,7 @@ const LogoSection = styled.div`
 const LogoHorseHead = styled.img`
   width: 122px;
   color: #081957;
+  margin-right: 10px;
 `;
 const TextContainer = styled.div`
   display: flex;
@@ -57,9 +59,8 @@ const MenuSection = styled.div`
 `;
 
 const CartCheckoutMenu = styled.div`
-  align-items: float-end;
-  position: relative;
   display: flex;
+  justify-content: flex-end;
   gap: 16px;
 `;
 
@@ -72,7 +73,7 @@ const TextWrapper = styled.div`
 
 const MainMenu = styled.div`
   display: flex;
-  
+  margin-top: 34px;
   gap: 24px;
 `;
 
